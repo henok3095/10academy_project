@@ -3,23 +3,20 @@
 ## 1. Environment Setup Documentation
 
 - **APIs configured**
-  - Google Gemini (for Lyria / Veo / Imagen): `GEMINI_API_KEY=...`
-  - AIMLAPI (for MiniMax with vocals): `AIMLAPI_KEY=...`
+  - Google Gemini (for Lyria / Veo / Imagen): `GEMINI_API_KEY=<set locally in .env>`
+  - AIMLAPI (for MiniMax with vocals): _not configured yet_ (optional for Part 1)
 - **Steps performed**
-  - Cloned repo: `git clone https://github.com/10xac/trp1-ai-artist.git`
+  - Cloned repo earlier: `git clone https://github.com/10xac/trp1-ai-artist.git`
   - Entered project: `cd trp1-ai-artist`
-  - Created `.env`: `cp .env.example .env` and filled in API keys
-  - Installed deps: `uv sync`
-  - Verified CLI:
+  - Confirmed env file: `.env` already exists in the project root
+  - Installed dependencies with uv:
+    - `uv sync`
+  - Verified CLI and configuration:
     - `uv run ai-content --help`
     - `uv run ai-content list-providers`
     - `uv run ai-content list-presets`
 - **Issues encountered & resolutions**
-  - Issue:
-  - Root cause:
-  - Fix:
-
-_(Fill in any real errors you hit and how you solved them.)_
+  - So far, no installation or CLI issues: `uv sync` and the basic ai-content commands ran successfully.
 
 ---
 
