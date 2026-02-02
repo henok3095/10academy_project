@@ -1,4 +1,4 @@
-# AI Content Generator
+# 10academy_project – AI Content Generator
 
 A multi-provider AI content generation framework for music, video, and images.
 
